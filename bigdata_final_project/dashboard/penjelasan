@@ -1,0 +1,8 @@
+Dashboard Description
+Dashboard dibuat menggunakan Power BI Desktop dan terdiri dari dua halaman:
+1. E-Commerce Sales & Delivery Analytics Dashboard
+Halaman utama dashboard menampilkan analisis transaksi e-commerce Olist. Visual yang digunakan meliputi KPI Total Revenue, Total Orders, Total Customers, Average Review Score, Revenue Trend by Date, Top Product Categories by Revenue, Revenue by Customer State, dan Holiday vs Non-Holiday Revenue.
+Dashboard ini digunakan untuk melihat performa transaksi, tren revenue, kategori produk dengan pendapatan terbesar, wilayah customer dengan kontribusi revenue terbesar, serta perbandingan transaksi pada holiday dan non-holiday.
+2. ETL vs ELT Comparison
+Halaman kedua menampilkan perbandingan pendekatan ETL dan ELT. Visual yang digunakan meliputi chart final fact table rows dan tabel perbandingan proses ETL vs ELT.
+Perbandingan mencakup urutan proses, lokasi transformasi, output warehouse, dan teknologi transformasi yang digunakan. ETL melakukan transformasi sebelum data dimuat ke warehouse menggunakan Pandas/Python, sedangkan ELT memuat raw data terlebih dahulu dan melakukan transformasi di dalam SQLite warehouse menggunakan SQL.
