@@ -1,0 +1,7 @@
+rule_name,passed,failed_count
+uniqueness_check_order_item_key,True,0
+null_check_primary_keys,True,0
+range_check_price_freight_non_negative,True,0
+referential_integrity_product_id,True,0
+row_count_minimum_100k,True,0
+column_count_minimum_12,True,0

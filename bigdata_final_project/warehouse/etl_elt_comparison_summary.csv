@@ -1,0 +1,5 @@
+aspect,etl_pipeline,elt_pipeline
+Urutan proses,Extract -> Transform with Pandas -> Load curated/star schema,Extract -> Load raw tables -> Transform with SQL inside warehouse
+Lokasi transformasi,Sebelum data masuk warehouse,Setelah raw data masuk warehouse
+Output warehouse,Warehouse ETL langsung berisi data hasil transformasi,"Warehouse ELT berisi raw tables, staging tables, dan final star schema"
+Teknologi transformasi,Pandas/Python,SQL di SQLite warehouse
